@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Xiaoming's personal blog",
+  title: "首页",
   description: "123",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -13,17 +13,9 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '卡尔曼滤波',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          { text: 'test', link: '/a' }
-        ]
-      },
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: '不变卡尔曼滤波总结', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'test', link: '/a' }
         ]
@@ -31,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/antizoos' }
     ]
   }
 })

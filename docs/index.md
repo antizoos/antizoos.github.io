@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "Xiaoming's Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "个人学习博客"
+  text: "Study Blogs"
+  
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 卡尔曼滤波
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
+    - theme: brand
+      text: SLAM
       link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+    - theme: brand
+      text: Latex
+      link:
+    - theme: brand
+      text: Matlab
+      link:
 
