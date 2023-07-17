@@ -31,12 +31,21 @@ export default defineConfig({
         text: '卡尔曼滤波',
         items: [
           { text: '不变卡尔曼滤波总结', link: '/Kalman_Filtering/Invariant_Kalman_Filtering' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
           { text: 'test', link: '/a' }
         ]
+      },
+      {
+        text: '其他工作',
+        items: [
+        { text: '搭建博客', link: '/other stuff/搭建博客' },
+        { text: 'test', link: '/a' }
+      ]
+        
       }
-    ],
 
+    ],
+    
+    
     socialLinks: [
       { icon: 'github', link: 'https://github.com/antizoos' }
     ]
