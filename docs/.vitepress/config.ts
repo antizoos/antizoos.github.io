@@ -31,7 +31,7 @@ export default defineConfig({
         text: '卡尔曼滤波',
         items: [
           { text: '不变卡尔曼滤波总结', link: '/Kalman_Filtering/Invariant_Kalman_Filtering' },
-          { text: 'test', link: '/a' }
+          { text: '不变卡尔曼滤波论文', link: '/Invariant_Kalman_Filter_as_a_stable_observer' }
         ]
       },
       {
